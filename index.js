@@ -1825,14 +1825,14 @@ const checkWin = (sender) => {
     }
     if (isGroup && !mek.key.fromMe && isAntiLink && !isGroupAdmins && !isOwner && !isCreator && isBotGroupAdmins){
             if (chatxs.match(/(https:\/\/chat.whatsapp.com)/gi)) {
-                reply2(`「 G R O U P  L I N K  D E T E C T O R 」\n\nSepertinya kamu mengirimkan link grup, maaf kamu akan di kick`)
+                reply2(`「 G R O U P  L I N K  D E T E C T O R 」\n\nSepertinya kamu mengirimkan link grup, maaf kamu akan di kick,yamete kudasai ahhh`)
                 alpha.groupRemove(from, [sender])
             }
         }
      if (isGroup && isAntivirtex && !mek.key.fromMe && !isOwner) {
       if (budy.length > 1000) {
         if (isGroupAdmins) return reply2("admin bebas");
-        reply2("「 A N T I V I R T E X  D E T E C T E D 」 \n\nMaaf Kamu Akan Dikick");
+        reply2("「 A N T I V I R T E X  D E T E C T E D 」 \n\nVirtex ya,Maaf Kamu Akan Dikick");
         alpha.groupRemove(from, [sender]);
       }
     }
@@ -2335,7 +2335,7 @@ ini_anu =`${ucapannya2}
 ╰❒ Owner : ${isOwner ? 'True' : `False`}
 `
 if(typemenu == 'document'){
-sendButDoc(from, ini_anu, `jangan di spam om botnya,ntar aku ewe loh💦❤🍭!\n`, sender, koko, ini_mark)
+sendButDoc(from, ini_anu, `jangan di spam om,ntar aku ewe loh💦❤🍭!\n`, sender, koko, ini_mark)
 } 
 if(typemenu == 'troli'){
 sendTroli(allmenu(kyun, os, prefix, wita, wit, ucapannya2, timuu, status, wa_version, mcc, mnc, os_version, device_manufacturer, device_model, alfa , alfa1, thisDay, ini_tanggal, totalchat, hit_today, ini_gcchat, latensii))
@@ -2724,7 +2724,7 @@ case 'bcgif':
 					const vname = alpha.contacts[i] != undefined ? alpha.contacts[i].vname || alpha.contacts[i].notify : undefined
 					ini_list.push({
 					"displayName": 'Owner Alphabot',
-					"vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:${vname ? `${vname}` : `${alpha.user.name}`}\nORG: Ahhh💦 yamete💦 Lisabotz❤🍭;\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
+					"vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:${vname ? `${vname}` : `${alpha.user.name}`}\nORG: Lisabotz❤🍭 Ahhhh💦;\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
 					})
 					}
 					hehe = await alpha.sendMessage(from, {
@@ -3824,7 +3824,7 @@ await limitAdd(sender, limit)
 		            ger = isQuotedSticker ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
 		            let owogi = await alpha.downloadAndSaveMediaMessage(ger)
 		            webp2mp4File(owogi).then(res=>{
-		            sendMediaURL(from,res.result,'Done')
+		            sendMediaURL(from,res.result,'Udah jadi kak')
 		            })
 		            }else {
 		            fakegroup('reply stiker')
@@ -3924,7 +3924,7 @@ alpha.sendMessage(from, orang, inv[0].invite_code, inv[0].invite_code_exp, group
 					if (!isGroup) return reply(lang.onlygc())
 					if (!isGroupAdmins) return reply(lang.onlygcAdmin())
 					if (!isBotGroupAdmins) return reply(lang.botNotAdm())
-if (mek.message.extendedTextMessage === undefined || mek.message.extendedTextMessage === null) return reply('Reply pesan yg ingin di Add!')
+if (mek.message.extendedTextMessage === undefined || mek.message.extendedTextMessage === null) return reply('Reply pesan yg ingin di Add sayang❤🍭!')
 mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid
 mentions(`Perintah di terima, Add: @${mentioned[0].split('@')[0]}`, mentioned, true)
 alpha.groupAdd(from, mentioned)
@@ -4118,7 +4118,7 @@ if (!isGroup) return reply(lang.onlygc())
 					}
 					seeer = `Nama : *${pushname}`
 					thumbb = await getBuffer(pic)
-					anuu  = {contextInfo:{"forwardingScore":999,"isForwarded":true,'stanzaId': "B826873620DD5947E683E3ABE663F263", 'participant': `${numbernye}@s.whatsapp.net`, 'remoteJid': '6289523258649-1604595598@g.us', 'quotedMessage': {"imageMessage": {"caption": `「 Bot by zeeone 」`, 'jpegThumbnail': fs.readFileSync(`image/${thumbnail}`)}}}}
+					anuu  = {contextInfo:{"forwardingScore":999,"isForwarded":true,'stanzaId': "B826873620DD5947E683E3ABE663F263", 'participant': `${numbernye}@s.whatsapp.net`, 'remoteJid': '6289523258649-1604595598@g.us', 'quotedMessage': {"imageMessage": {"caption": `「 Bot by Lisabotz❤🍭 」`, 'jpegThumbnail': fs.readFileSync(`image/${thumbnail}`)}}}}
                     alpha.sendMessage(from, thumbb ,image, anuu)
 				}
 				await limitAdd(sender, limit)
@@ -4341,7 +4341,7 @@ case 'tahta':
                    F = q
                    reply(lang.wait())
                    ytgold = await getBuffer(`${ApiZeks}/api/gplaybutton?text=${F}&apikey=${zeksApikey}`)
-                   ytgoldp = `${lang.success()}\n\nPlease Subscribe https://youtu.be/w4iQ4rwA0mo`
+                   ytgoldp = `${lang.success()}\n\njangan lupa donasi kak`
                    sendImageMaker(ytgold, ytgoldp, sender)
                    await  limitAdd(sender, limit)
                    break  
@@ -5056,7 +5056,7 @@ reply(`*List Auto Read*\n•> gc\n•> pc`)
 }
 break
 case 'nsfw':
-					    if (!mek.key.fromMe && !isOwner && !isCreator) return reply(lang.onlyOwner())
+					    if (!mek.key.fromMe && !isGroupAdmins && !isOwner && !isCreator) return reply(lang.onlyOwner())
 						if (!isGroup) return reply(lang.onlygc()) 
 						if (args.length < 1) return reply(lang.anjawaUdhOon(command))
 						if (args[0] === 'on') {
@@ -5499,7 +5499,7 @@ reply('Emror')
 }
 break
 case 'tes': case 'bot':
-var ini_gopayyp = `${ucapannya2}\nBot sudah on kak silahkan di pakai`
+var ini_gopayyp = `${ucapannya2}\nBot sudah on kak silahkan di ewe ahhh💦`
 var buttonsos = [
 {buttonId: 'Menu', buttonText: {displayText: 'Menu'}, type: 1},
 {buttonId: 'runtime', buttonText: {displayText: 'Runtime'}, type: 1}]
