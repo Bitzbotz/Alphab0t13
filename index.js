@@ -167,8 +167,8 @@ var _minggu = 'Rp 10.000,00' //Masukkan harga sewa sesuai keinginan
 var __minggu = 'Rp 15.000,00'
 var ___minggu = 'Rp 20.000,00'
 var _bulan = 'Rp 22.000,00'
-var _permanen = 'Rp 100.000,00'
-var __permanen = 'Rp 150.000,00'
+var _permanen = 'Rp 10.000,00'
+var __permanen = 'Rp 15.000,00'
 
 zeksApikey = 'Alphabott' //ganti pake apikey lu biar limitnya gk cepet abis 
 ApiZeks = 'https://api.zeks.me' // regis disini klo mau dapat apikeynya
@@ -179,9 +179,9 @@ fthumb = setting.fakethumb
 hit_today = []
 blocked = []
 ban = []
-limitawal = "50"
-gcounttprem = "50" 
-gcounttuser = "25" 
+limitawal = "10"
+gcounttprem = "9999" 
+gcounttuser = "999999" 
 
 let multi = true
 let nopref = false
@@ -204,7 +204,7 @@ autoketik = false
 autoregister = setting.user_register
 typemenu = 'document'
 img = setting.img
-apiku = 'https://zeeoneofc.github.io/'
+apiku = 'https://Lisabotz.github.io/'
 gc_wa_lu = 'https://chat.whatsapp.com/EU890BcXjyBDkNaUT5WmYV' //klo gk punya gc wa gk usah di ganti 👍
 targetpc = setting.ownerNumberr
 owner = targetpc
@@ -1287,7 +1287,7 @@ const bayarLimit = (sender, amount) => {
 }
 function _0x4e45(_0x4e8b73,_0x2db95f){const _0x553354=_0x5533();return _0x4e45=function(_0x4e45e1,_0x5b26a4){_0x4e45e1=_0x4e45e1-0x76;let _0x557adc=_0x553354[_0x4e45e1];return _0x557adc;},_0x4e45(_0x4e8b73,_0x2db95f);}function _0x5533(){const _0x516b70=['catch','join','\x20⏲️\x20|\x20','307181SZxmPs','floor','4380XHlsWX','8MLUKsu','409362PgYSiM','322268kXuSte','uptime','5800VQatWW','663354GmlYJk','10vTioRs','padStart','I\x27m\x20Userbot\x20👾\x20|\x20Runtime\x20','setStatus','3861mgZSmQ','76702JcgLDj','toString','2ZaLfWc','5027jESttL'];_0x5533=function(){return _0x516b70;};return _0x5533();}const _0x16e292=_0x4e45;(function(_0x1fa937,_0x195ad4){const _0x3a9f53=_0x4e45,_0x5aa8e6=_0x1fa937();while(!![]){try{const _0x14241e=parseInt(_0x3a9f53(0x7a))/0x1*(-parseInt(_0x3a9f53(0x7c))/0x2)+parseInt(_0x3a9f53(0x85))/0x3+-parseInt(_0x3a9f53(0x86))/0x4*(parseInt(_0x3a9f53(0x8a))/0x5)+-parseInt(_0x3a9f53(0x89))/0x6+-parseInt(_0x3a9f53(0x81))/0x7*(parseInt(_0x3a9f53(0x84))/0x8)+-parseInt(_0x3a9f53(0x79))/0x9*(-parseInt(_0x3a9f53(0x88))/0xa)+parseInt(_0x3a9f53(0x7d))/0xb*(parseInt(_0x3a9f53(0x83))/0xc);if(_0x14241e===_0x195ad4)break;else _0x5aa8e6['push'](_0x5aa8e6['shift']());}catch(_0x469ac5){_0x5aa8e6['push'](_0x5aa8e6['shift']());}}}(_0x5533,0x27039));function clockString(_0x2c6545){const _0x4c5819=_0x4e45;let _0x5ea16d=isNaN(_0x2c6545)?'--':Math[_0x4c5819(0x82)](_0x2c6545/0x36ee80),_0x57c8ff=isNaN(_0x2c6545)?'--':Math[_0x4c5819(0x82)](_0x2c6545/0xea60)%0x3c,_0x497347=isNaN(_0x2c6545)?'--':Math['floor'](_0x2c6545/0x3e8)%0x3c;return[_0x5ea16d,_0x57c8ff,_0x497347]['map'](_0x4fc95c=>_0x4fc95c[_0x4c5819(0x7b)]()[_0x4c5819(0x76)](0x2,0x0))[_0x4c5819(0x7f)](':');}if(autobio){if(autobio===![])return;let settingstatus=0x0;if(new Date()*0x1-settingstatus>0x3e8){let _uptime=process[_0x16e292(0x87)]()*0x3e8,uptimer=clockString(_uptime);await alpha[_0x16e292(0x78)](_0x16e292(0x77)+uptimer+_0x16e292(0x80)+status)[_0x16e292(0x7e)](_0x1ccda0=>_0x1ccda0),settingstatus=new Date()*0x1;}}
 		mess = {
-			wait: '```[ ! ] Proses kak...```',
+			wait: '```[ ! ] Sabar kak lagi di Proses...```',
 			success: '```[ ✓ ]``` Success',
 			wrongFormat: 'Format salah, coba liat lagi di menu',
 			error: {
@@ -2278,7 +2278,7 @@ let papakpo = [{
 }
 break
 	case 'verify': case 'daftar':
- if (isRegister) return reply('Kamu sudah terdaftar di dalam database')
+ if (isRegister) return reply('Kamu sudah terdaftar di dalam database❤🍭')
  addRegisterUser(sender, pushname, bio_user, wib)
  let ran_blc = randomNomor(50)
  addBalance(sender, ran_blc, balance)
@@ -2335,7 +2335,7 @@ ini_anu =`${ucapannya2}
 ╰❒ Owner : ${isOwner ? 'True' : `False`}
 `
 if(typemenu == 'document'){
-sendButDoc(from, ini_anu, `Please Don't spam bot, pause 3 seconds per command!\n`, sender, koko, ini_mark)
+sendButDoc(from, ini_anu, `jangan di spam om botnya,ntar aku ewe loh💦❤🍭!\n`, sender, koko, ini_mark)
 } 
 if(typemenu == 'troli'){
 sendTroli(allmenu(kyun, os, prefix, wita, wit, ucapannya2, timuu, status, wa_version, mcc, mnc, os_version, device_manufacturer, device_model, alfa , alfa1, thisDay, ini_tanggal, totalchat, hit_today, ini_gcchat, latensii))
@@ -2611,7 +2611,7 @@ case 'setname':
 					if (!isGroupAdmins) return reply(lang.onlygcAdmin())
 					if (!isBotGroupAdmins) return reply(lang.botNotAdm())
 					alpha.groupUpdateSubject(from, `${body.slice(9)}`)
-					alpha.sendMessage(from, '「  SUKSES  」Mengubah Nama Grup', text, { quoted: fdoc })
+					alpha.sendMessage(from, '「  SUKSES KAK❤🍭  」Mengubah Nama Grup', text, { quoted: fdoc })
 					await limitAdd(sender, limit)
 					break 
 case 'setdesc':
@@ -2619,7 +2619,7 @@ case 'setdesc':
 					if (!isGroupAdmins) return reply(lang.onlygcAdmin())
 					if (!isBotGroupAdmins) return reply(lang.botNotAdm())
 					alpha.groupUpdateDescription(from, `${body.slice(9)}`)
-					alpha.sendMessage(from, '*「  SUKSES  」Mengubah Desk Grup', text, { quoted: fdoc })
+					alpha.sendMessage(from, '*「  SUKSES KAK❤🍭  」Mengubah Desk Grup', text, { quoted: fdoc })
 					await limitAdd(sender, limit)
 					break   
 case 'spam':
@@ -2724,14 +2724,14 @@ case 'bcgif':
 					const vname = alpha.contacts[i] != undefined ? alpha.contacts[i].vname || alpha.contacts[i].notify : undefined
 					ini_list.push({
 					"displayName": 'Owner Alphabot',
-					"vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:${vname ? `${vname}` : `${alpha.user.name}`}\nORG: SUBSCRIBE ZEEONE OFC;\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
+					"vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:${vname ? `${vname}` : `${alpha.user.name}`}\nORG: Ahhh💦 yamete💦 Lisabotz❤🍭;\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
 					})
 					}
 					hehe = await alpha.sendMessage(from, {
 					"displayName": `${ini_list.length} kontak`,
 					"contacts": ini_list 
 					}, 'contactsArrayMessage', { quoted: fkontak})
-					var ini_gopayy =`Halo @${sender.split("@")[0]} itu owner ku, jangan lupa donasi kak😇`
+					var ini_gopayy =`Halo @${sender.split("@")[0]} itu owner ku, jangan di spam ya,ntar aku ewe loh❤🍭💦`
 var buttonss = [
 {buttonId: 'donasi', buttonText:{displayText: 'Donasi'}, type: 1},
 {buttonId: 'sewabot', buttonText:{displayText: 'Sewa'}, type: 1}
@@ -2759,7 +2759,7 @@ alpha.sendMessage(from,  buttonMessagee, MessageType.buttonsMessage,{
                 shape = '✓ '
 infom = await alpha.messageInfo(from, mek.message.extendedTextMessage.contextInfo.stanzaId)
 tagg = []
-teks = `Telah Dibaca Oleh :\n\n`
+teks = `Telah Dibaca Oleh❤🍭 :\n\n`
 for(let i of infom.reads){
 teks += shape+' ' + '@' + i.jid.split('@')[0] + '\n'
 teks += `> Waktu : ` + moment(`${i.t}` * 1000).tz('Asia/Jakarta').format('DD/MM/YYYY HH:mm:ss') + '\n\n'
@@ -3354,8 +3354,8 @@ break
 		                        const { dl_link, thumb, title, filesizeF, filesize } = res
 		                        axios.get(`https://tinyurl.com/api-create.php?url=${dl_link}`)
 		                        .then(async (a) => {
-		                        if (Number(filesize) >= 100000) return sendMediaURL(from, thumb, `*PLAY MUSIC*\n\n*Title* : ${title}\n*Ext* : MP3\n*Filesize* : ${filesizeF}\n*Link* : ${a.data}\n\n_Untuk durasi lebih dari batas disajikan dalam mektuk link_`)
-		                        const captions = `🎧 *PLAY MUSIC*\n\n*Title* : ${title}\n*Ext* : MP3\n*Size* : ${filesizeF}\n*Link* : ${a.data}\n\n_Silahkan tunggu file media sedang dikirim mungkin butuh beberapa menit_`
+		                        if (Number(filesize) >= 100000) return sendMediaURL(from, thumb, `*PLAY MUSIC*\n\n*Title* : ${title}\n*Ext* : MP3\n*Filesize* : ${filesizeF}\n*Link* : ${a.data}\n\n_Untuk durasi lebih dari batas disajikan dalam bentuk link_`)
+		                        const captions = `🎧 *PLAY MUSIC*\n\n*Title* : ${title}\n*Ext* : MP3\n*Size* : ${filesizeF}\n*Link* : ${a.data}\n\n_Sabar kak lagi diproses_`
 		                       await sendMediaURL(from, thumb, captions)
 		                        sendMediaURL(from, dl_link).catch(() => reply('error'))
 		                        })                
@@ -3457,7 +3457,7 @@ break
 					fs.unlinkSync(mediaa)
 					if (err) return reply('Yah gagal, coba ulangi ^_^')
 					buffer = fs.readFileSync(ran)
-					fakethumb(buffer,'```Nih kak, jgn lupa Support YT : ZEEONE OFC```')
+					fakethumb(buffer,'```Nih kak udh jadi,Jangan Lupa Donasi Ke Owner Lisabotz❤🍭```')
 					fs.unlinkSync(ran)
 					})
 					await limitAdd(sender, limit)
@@ -3938,14 +3938,14 @@ if(!q)return reply(`*Format salah!*\n\n*Example : ${prefix + command} @tag*`)
 if (!isBotGroupAdmins) return reply(mess.only.Badmin)
 yau = q.split('@')[1] + '@s.whatsapp.net'
 alpha.groupRemove(from, [yau])
-reply(`Succses kick target!`)
+reply(`Succses kick target,mampus di kick ahhh yamete kudasai💦!`)
 break
 
 case 'rkick': case 'kickreply':
 if (!isGroup) return reply(lang.onlygc())
 					if (!isGroupAdmins) return reply(lang.onlygcAdmin())
 					if (!isBotGroupAdmins) return reply(lang.botNotAdm())
-if (mek.message.extendedTextMessage === undefined || mek.message.extendedTextMessage === null) return reply('Reply pesan yg ingin di Kick!')
+if (mek.message.extendedTextMessage === undefined || mek.message.extendedTextMessage === null) return reply('Reply pesan yg ingin di Kick sayang❤🍭!')
 mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid
 mentions(`Perintah di terima, mengeluarkan : @${mentioned[0].split('@')[0]}`, mentioned, true)
 alpha.groupRemove(from, mentioned)
@@ -4051,8 +4051,8 @@ if (!isGroup) return reply(lang.onlygc())
         }
         break;
 			case 'admin':
-					if (!isGroup) return fakestatus('```KHUSUS GRUP BRO```')
-					teks = `*DAFTAR ATASAN GROUP* _${groupMetadata.subject}_\n*TOTAL* : ${groupAdmins.length}\n\n`
+					if (!isGroup) return fakestatus('```KHUSUS GRUP SAYANG```')
+					teks = `*DAFTAR ATASAN GROUP YG PERNAH AKU EWE* _${groupMetadata.subject}_\n*TOTAL* : ${groupAdmins.length}\n\n`
 					no = 0
 					for (let admon of groupAdmins) {
 					no += 1
@@ -4065,7 +4065,7 @@ if (!isGroup) return reply(lang.onlygc())
 			if (!isGroup) return reply(lang.onlygc())
 					if (!isGroupAdmins) return reply(lang.onlygcAdmin())
 					if (!isBotGroupAdmins) return reply(lang.botNotAdm())       
-			if (!mek.key.fromMe && !isOwner && !isCreator) return reply(lang.onlyOwner())
+			if (!mek.key.fromMe && !isGroupAdmins && !isOwner && !isCreator) return reply(lang.onlyOwner())
 			        if (!isGroup) return reply(lang.onlygc())
 					if (!isGroupAdmins) return reply(lang.onlygcAdmin())
 					if (!isBotGroupAdmins) return reply(lang.botNotAdm())       
@@ -4237,8 +4237,8 @@ if (!isGroup) return reply(lang.onlygc())
 										limitAdd(sender, limit)
 									break
 					 	case 'stickermeme': case 'memesticker': case 'memestick': case 'stickmeme': case 'stcmeme': case 'smeme':
-						if (args.length < 1) return reply(`Kirim perintah *${prefix + command}* Alphabot`)
-									if (q.includes('|')) return reply(`Kirim perintah *${prefix + command}* Alphabot`)
+						if (args.length < 1) return reply(`Kirim perintah *${prefix + command}* Lisabotz`)
+									if (q.includes('|')) return reply(`Kirim perintah *${prefix + command}* Lisabotz`)
 									try {
 										if (!isQuotedImage) return reply(`Reply Gambar!`)
 										reply(lang.wait())
@@ -4281,7 +4281,7 @@ if (!isGroup) return reply(lang.onlygc())
 					if (mek.message.extendedTextMessage === undefined || mek.message.extendedTextMessage === null) return
 					mentionede = mek.message.extendedTextMessage.contextInfo.participant
 alpha.groupMakeAdmin(from, [mentionede])
-teks = `Members @${mentionede.split('@')[0]} succes promote`
+teks = `Members @${mentionede.split('@')[0]} succes promote kak❤🍭`
 alpha.sendMessage(from, teks, text, {quoted:mek, contextInfo:{mentionedJid:[mentionede]}})
 				case 'demote':
 					if (!isGroup) return reply(lang.onlygc())
@@ -4290,7 +4290,7 @@ alpha.sendMessage(from, teks, text, {quoted:mek, contextInfo:{mentionedJid:[ment
 					if (mek.message.extendedTextMessage === undefined || mek.message.extendedTextMessage === null) return
 					mentionede = mek.message.extendedTextMessage.contextInfo.participant
 alpha.groupDemoteAdmin(from, [mentionede])
-teks = `Members @${mentionede.split('@')[0]} succes demote`
+teks = `Members @${mentionede.split('@')[0]} succes demote kak❤🍭`
 alpha.sendMessage(from, teks, text, {quoted:mek, contextInfo:{mentionedJid:[mentionede]}})
 break
                 
@@ -4891,7 +4891,7 @@ case "colongsw":
           ];
           alpha.reply(
             m.chat,
-            "「 L I S T   O N L I N E  」\n" +
+            "「 L I S T   O N L I N E❤🍭  」\n" +
               online.map((v) => "├ @" + v.replace(/@.+/, "")).join`\n` +
               "\n",
             m,
