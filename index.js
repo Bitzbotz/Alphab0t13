@@ -1832,7 +1832,7 @@ const checkWin = (sender) => {
      if (isGroup && isAntivirtex && !mek.key.fromMe && !isOwner) {
       if (budy.length > 1000) {
         if (isGroupAdmins) return reply2("admin bebas");
-        reply2("「 A N T I V I R T E X  D E T E C T E D 」 \n\nVirtex ya,Maaf Kamu Akan Dikick");
+        reply2("「 A N T I V I R T E X  D E T E C T E D 」 \n\nVirtex ya,Maaf Kamu Akan Dikick,ahhh yamete");
         alpha.groupRemove(from, [sender]);
       }
     }
@@ -2436,7 +2436,7 @@ break
 											},
 										"type": "RESPONSE"
 										}]
-								sendButLocation(from, allmenu(kyun, os, prefix, wita, wit, ucapannya2, timuu, status, wa_version, mcc, mnc, os_version, device_manufacturer, device_model, alfa , alfa1, thisDay, ini_tanggal, totalchat, hit_today, ini_gcchat, latensii), `NOTE ！\nJika whatsapp mod kamu belum support button silahkan tonton video ini https://youtu.be/ERGID4Fmo9w\n\n${botname}™© | By ${ownername}`,pp_userz, papao, {})
+								sendButLocation(from, allmenu(kyun, os, prefix, wita, wit, ucapannya2, timuu, status, wa_version, mcc, mnc, os_version, device_manufacturer, device_model, alfa , alfa1, thisDay, ini_tanggal, totalchat, hit_today, ini_gcchat, latensii), `NOTE ！\nJangan di spam om,ntar aku ewe loh...ahhh yamete kudasai❤🍭💦\n\n${botname}™© | By ${ownername}`,pp_userz, papao, {})
                 break
         case 'trigger':
 					reply ('Mungkin yg kamu maksud .triggered')
@@ -2848,7 +2848,7 @@ await limitAdd(sender, limit)
 					break   
 		    case 'totag':
 		            if (!isGroupAdmins) return reply(lang.onlygcAdmin())
-					if (!isOwner && !isCreator) return reply(lang.onlyOwner())
+					if (!isGroupAdmins && !isOwner && !isCreator) return reply(lang.onlyOwner())
 		            if ((isMedia && !mek.message.videoMessage || isQuotedSticker) && args.length == 0) {
 		            encmedia = isQuotedSticker ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
 		            file = await alpha.downloadAndSaveMediaMessage(encmedia, filename = getRandom())
@@ -3742,7 +3742,7 @@ await limitAdd(sender, limit)
 					break
                
 		    case 'totag':
-		if (!mek.key.fromMe && !isOwner && !isCreator) return reply(lang.onlyOwner())
+		if (!mek.key.fromMe && !isGroupAdmins && !isOwner && !isCreator) return reply(lang.onlyOwner())
 		            if ((isMedia && !mek.message.videoMessage || isQuotedSticker) && args.length == 0) {
 		            encmedia = isQuotedSticker ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
 		            file = await alpha.downloadAndSaveMediaMessage(encmedia, filename = getRandom())
