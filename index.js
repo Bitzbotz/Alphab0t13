@@ -2212,7 +2212,7 @@ NOTE :
 - Harga Limit Perlimit adalah $100 balance`)
 break
 case 'buylimit':{
-if (!q) return reply(`Kirim perintah *${prefix}buylimit* jumlah limit yang ingin dibeli\n\nHarga 1 limit = $100 balance`)
+if (!q) return reply(`Kirim perintah *${prefix}buylimit* jumlah limit yang ingin dibeli\n\nHarga 100 limit = $1 balance`)
 if (q.includes('-')) return reply(`Jangan menggunakan -`)
 if (isNaN(q)) return reply(`Harus berupa angka`)
 let ane = Number(nebal(q) * 100)
@@ -2226,7 +2226,7 @@ reply(`Pembeliaan limit sebanyak ${q} berhasil
 }
 break
 case 'buyglimit':{
-if (!q)return reply(`Example : ${prefix + command} 10\n\nHarga 1 limit = $100 balance`)
+if (!q)return reply(`Example : ${prefix + command} 10\n\nHarga 100 limit = $1 balance`)
 if (q.includes('-')) return reply(`Jangan menggunakan -`)
 if (isNaN(q)) return reply(`Harus berupa angka`)
 const koinPerlimit = 100
@@ -2274,7 +2274,7 @@ let papakpo = [{
 											},
 										"type": "RESPONSE"
 										}]
-								sendButLocation(from, userProcfile , `NOTE ！\nJika whatsapp mod kamu belum support button silahkan tonton video ini https://youtu.be/ERGID4Fmo9w\n\n${botname}™© | By ${ownername}`,pp_userz, papakpo, {contextInfo: { mentionedJid: [sender]}})
+								sendButLocation(from, userProcfile , `NOTE ！\nJangan di spam om.nanti aku ewe kamu sampe croott dimuka\n\n${botname}™© | By ${ownername}`,pp_userz, papakpo, {contextInfo: { mentionedJid: [sender]}})
 }
 break
 	case 'verify': case 'daftar':
