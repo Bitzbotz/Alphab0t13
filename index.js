@@ -3906,7 +3906,7 @@ await limitAdd(sender, limit)
   
 			case 'add':  
 			if (!isGroup) return reply(lang.onlygc())
-					if (!isGroupAdmins) return reply(lang.onlygcAdmin())
+					if (!isOwner && !isGroupAdmins) return reply(lang.onlygcAdmin())
 					if (!isBotGroupAdmins) return reply(lang.botNotAdm())
                     if (args.length < 1) return reply('Yang mau di add?')
 					if (args[0].startsWith('08')) return reply('Gunakan kode negara mas')
@@ -3922,7 +3922,7 @@ alpha.sendMessage(from, orang, inv[0].invite_code, inv[0].invite_code_exp, group
 					break 
 					case 'radd': case 'addreply':
 					if (!isGroup) return reply(lang.onlygc())
-					if (!isGroupAdmins) return reply(lang.onlygcAdmin())
+					if (!isOwner && !isGroupAdmins) return reply(lang.onlygcAdmin())
 					if (!isBotGroupAdmins) return reply(lang.botNotAdm())
 if (mek.message.extendedTextMessage === undefined || mek.message.extendedTextMessage === null) return reply('Reply pesan yg ingin di Add sayang❤🍭!')
 mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid
@@ -3932,7 +3932,7 @@ break
 
 case 'kick':
 if (!isGroup) return reply(lang.onlygc())
-					if (!isGroupAdmins) return reply(lang.onlygcAdmin())
+					if (!isOwner && !isGroupAdmins) return reply(lang.onlygcAdmin())
 					if (!isBotGroupAdmins) return reply(lang.botNotAdm())
 if(!q)return reply(`*Format salah!*\n\n*Example : ${prefix + command} @tag*`)
 if (!isBotGroupAdmins) return reply(mess.only.Badmin)
@@ -3943,7 +3943,7 @@ break
 
 case 'rkick': case 'kickreply':
 if (!isGroup) return reply(lang.onlygc())
-					if (!isGroupAdmins) return reply(lang.onlygcAdmin())
+					if (!isOwner && !isGroupAdmins) return reply(lang.onlygcAdmin())
 					if (!isBotGroupAdmins) return reply(lang.botNotAdm())
 if (mek.message.extendedTextMessage === undefined || mek.message.extendedTextMessage === null) return reply('Reply pesan yg ingin di Kick sayang❤🍭!')
 mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid
