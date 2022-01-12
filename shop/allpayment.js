@@ -21,7 +21,7 @@ return `PAYMENT BY ZEEONE OFC
 3. DANA
 	ㅁ Tidak tersedia
 	
-Semuanya atas nama RI****DI
+Semuanya atas nama Lisabotz
 
 *📲 PULSA*
 
