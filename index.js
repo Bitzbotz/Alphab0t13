@@ -1287,7 +1287,7 @@ const bayarLimit = (sender, amount) => {
 }
 function _0x4e45(_0x4e8b73,_0x2db95f){const _0x553354=_0x5533();return _0x4e45=function(_0x4e45e1,_0x5b26a4){_0x4e45e1=_0x4e45e1-0x76;let _0x557adc=_0x553354[_0x4e45e1];return _0x557adc;},_0x4e45(_0x4e8b73,_0x2db95f);}function _0x5533(){const _0x516b70=['catch','join','\x20⏲️\x20|\x20','307181SZxmPs','floor','4380XHlsWX','8MLUKsu','409362PgYSiM','322268kXuSte','uptime','5800VQatWW','663354GmlYJk','10vTioRs','padStart','I\x27m\x20Userbot\x20👾\x20|\x20Runtime\x20','setStatus','3861mgZSmQ','76702JcgLDj','toString','2ZaLfWc','5027jESttL'];_0x5533=function(){return _0x516b70;};return _0x5533();}const _0x16e292=_0x4e45;(function(_0x1fa937,_0x195ad4){const _0x3a9f53=_0x4e45,_0x5aa8e6=_0x1fa937();while(!![]){try{const _0x14241e=parseInt(_0x3a9f53(0x7a))/0x1*(-parseInt(_0x3a9f53(0x7c))/0x2)+parseInt(_0x3a9f53(0x85))/0x3+-parseInt(_0x3a9f53(0x86))/0x4*(parseInt(_0x3a9f53(0x8a))/0x5)+-parseInt(_0x3a9f53(0x89))/0x6+-parseInt(_0x3a9f53(0x81))/0x7*(parseInt(_0x3a9f53(0x84))/0x8)+-parseInt(_0x3a9f53(0x79))/0x9*(-parseInt(_0x3a9f53(0x88))/0xa)+parseInt(_0x3a9f53(0x7d))/0xb*(parseInt(_0x3a9f53(0x83))/0xc);if(_0x14241e===_0x195ad4)break;else _0x5aa8e6['push'](_0x5aa8e6['shift']());}catch(_0x469ac5){_0x5aa8e6['push'](_0x5aa8e6['shift']());}}}(_0x5533,0x27039));function clockString(_0x2c6545){const _0x4c5819=_0x4e45;let _0x5ea16d=isNaN(_0x2c6545)?'--':Math[_0x4c5819(0x82)](_0x2c6545/0x36ee80),_0x57c8ff=isNaN(_0x2c6545)?'--':Math[_0x4c5819(0x82)](_0x2c6545/0xea60)%0x3c,_0x497347=isNaN(_0x2c6545)?'--':Math['floor'](_0x2c6545/0x3e8)%0x3c;return[_0x5ea16d,_0x57c8ff,_0x497347]['map'](_0x4fc95c=>_0x4fc95c[_0x4c5819(0x7b)]()[_0x4c5819(0x76)](0x2,0x0))[_0x4c5819(0x7f)](':');}if(autobio){if(autobio===![])return;let settingstatus=0x0;if(new Date()*0x1-settingstatus>0x3e8){let _uptime=process[_0x16e292(0x87)]()*0x3e8,uptimer=clockString(_uptime);await alpha[_0x16e292(0x78)](_0x16e292(0x77)+uptimer+_0x16e292(0x80)+status)[_0x16e292(0x7e)](_0x1ccda0=>_0x1ccda0),settingstatus=new Date()*0x1;}}
 		mess = {
-			wait: '```[ ! ] Sabar kak lagi di Proses...```',
+			wait: '```[ ! ] LOADING...```',
 			success: '```[ ✓ ]``` Success',
 			wrongFormat: 'Format salah, coba liat lagi di menu',
 			error: {
@@ -1383,7 +1383,7 @@ key: {
 					"title": 'Whatsapp bot', 
 					"description": "SELF BOT", 
 					"currencyCode": "IDR",
-					"priceAmount1000": "70000000",
+					"priceAmount1000": "99999999999999999",
 					"retailerId": 'Whatsapp bot',
 					"productImageCount": 1
 				},
@@ -1425,7 +1425,7 @@ const fakeitem = (teks) => {
         	fromMe:false,
         participant:`0@s.whatsapp.net`, ...(from ? {
 remoteJid :"6289523258649-1604595598@g.us" }: {})
-                    },message:{"orderMessage":{"orderId":"174238614569481","thumbnail":fs.readFileSync(`image/${thumbnail}`),"itemCount":10,"status":"INQUIRY","surface":"CATALOG","message":`${setting.botname}`,"token":"AR6xBKbXZn0Xwmu76Ksyd7rnxI+Rx87HfinVlW4lwXa6JA=="}}}})}
+                    },message:{"orderMessage":{"orderId":"174238614569481","thumbnail":fs.readFileSync(`image/${thumbnail}`),"itemCount":99999999999999,"status":"INQUIRY","surface":"CATALOG","message":`${setting.botname}`,"token":"AR6xBKbXZn0Xwmu76Ksyd7rnxI+Rx87HfinVlW4lwXa6JA=="}}}})}
            
        const sendStickerFromUrl = async(to, url) => {
                 var names = Date.now() / 10000;
