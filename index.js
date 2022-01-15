@@ -1383,7 +1383,7 @@ key: {
 					"title": 'Lisabotz❤🍭', 
 					"description": "SELF BOT", 
 					"currencyCode": "IDR",
-					"priceAmount1000": "99999999999999999",
+					"priceAmount1000": "999999999999999999",
 					"retailerId": 'Lisabotz❤🍭',
 					"productImageCount": 1
 				},
@@ -1407,7 +1407,7 @@ const bugtrol = {
 						"sellerJid": "62887435047326@s.whatsapp.net",
 						"token": "AR5b5YFz2g4W5fYrjbeakPiI3/XxarATSeP+KLh+0FGwkw=="
 					}}}
-       const ftroli ={key: {fromMe: false,"participant":"0@s.whatsapp.net",   "remoteJid": "6289523258649-1604595598@g.us"  }, "message": {orderMessage: {itemCount: 99999999999999,status: 200, thumbnail: fs.readFileSync(`image/${thumbnail}`), surface: 200, message: `Lisabotz❤🍭\nBy ${ownername}`, orderTitle: 'zeeoneofc', sellerJid: '0@s.whatsapp.net'}},contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
+       const ftroli ={key: {fromMe: false,"participant":"0@s.whatsapp.net",   "remoteJid": "6289523258649-1604595598@g.us"  }, "message": {orderMessage: {itemCount: 9999999999999999999999999,status: 200, thumbnail: fs.readFileSync(`image/${thumbnail}`), surface: 200, message: `Lisabotz❤🍭\nBy ${ownername}`, orderTitle: 'zeeoneofc', sellerJid: '0@s.whatsapp.net'}},contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
         const fdoc = {key : {participant : '0@s.whatsapp.net'},message: {documentMessage: {title: `${creator}`,jpegThumbnail: fs.readFileSync(`image/${thumbnail}`)}}}
         const fvn = {key: {participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "6289643739077-1613049930@g.us" } : {})},message: { "audioMessage": {"mimetype":"audio/ogg; codecs=opus","seconds":99999,"ptt": "true"}} } 
         const fgif = {key: {participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "6289643739077-1613049930@g.us" } : {})},message: {"videoMessage": { "title":`${creator}`, "h": `Hmm`,'seconds': '99999', 'gifPlayback': 'true', 'caption': `Lisabotz❤🍭\nBy ${ownername}`, 'jpegThumbnail': fs.readFileSync(`image/${thumbnail}`)}}}
@@ -1425,7 +1425,7 @@ const fakeitem = (teks) => {
         	fromMe:false,
         participant:`0@s.whatsapp.net`, ...(from ? {
 remoteJid :"6289523258649-1604595598@g.us" }: {})
-                    },message:{"orderMessage":{"orderId":"174238614569481","thumbnail":fs.readFileSync(`image/${thumbnail}`),"itemCount":99999999999999,"status":"INQUIRY","surface":"CATALOG","message":`${setting.botname}`,"token":"AR6xBKbXZn0Xwmu76Ksyd7rnxI+Rx87HfinVlW4lwXa6JA=="}}}})}
+                    },message:{"orderMessage":{"orderId":"174238614569481","thumbnail":fs.readFileSync(`image/${thumbnail}`),"itemCount":99999999999999999999999,"status":"INQUIRY","surface":"CATALOG","message":`${setting.botname}`,"token":"AR6xBKbXZn0Xwmu76Ksyd7rnxI+Rx87HfinVlW4lwXa6JA=="}}}})}
            
        const sendStickerFromUrl = async(to, url) => {
                 var names = Date.now() / 10000;
@@ -2297,7 +2297,7 @@ let papako = [{
 											},
 										"type": "RESPONSE"
 										}]
-								sendButLocation(from, teks , `Thank for verification 💋\n${botname}™© | By ${ownername}`,pp_userz, papako, {contextInfo: { mentionedJid: [sender]}})
+								sendButLocation(from, teks , `MAKASIH UDH DAFTAR JADI PACAR AKU MUACHH❤🍭💦\n${botname}™© | By ${ownername}`,pp_userz, papako, {contextInfo: { mentionedJid: [sender]}})
                 break
 	case 'menu': case 'help':
 			try {
@@ -2372,7 +2372,7 @@ const btn1 = {
 }
 
 alpha.sendMessage(from,  btn1, MessageType.buttonsMessage,{
-        caption: 'Botwea ©2k21',
+        caption: 'Lisabotz❤🍭',
         "contextInfo": {
             text: 'hi',
             "forwardingScore": 1000000000,
@@ -2516,7 +2516,7 @@ buttons: buttonss,
 headerType: 1
 }
 alpha.sendMessage(from,  buttonMessagee, MessageType.buttonsMessage,{
-        caption: 'Botwea ©2k21',
+        caption: 'Lisabotz❤🍭',
         "contextInfo": {
             text: 'hi',
             "forwardingScore": 1000000000,
@@ -2744,7 +2744,7 @@ buttons: buttonss,
 headerType: 1
 }
 alpha.sendMessage(from,  buttonMessagee, MessageType.buttonsMessage,{
-        caption: 'Botwea ©2k21',
+        caption: 'Lisabotz❤🍭',
         "contextInfo": {
             text: 'hi',
             "forwardingScore": 1000000000,
