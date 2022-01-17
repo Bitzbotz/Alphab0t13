@@ -2,6 +2,9 @@ const donasibot = () => {
 return `DONASI BISA VIA PULSA❤🍭 / E-MONEY
 
 *🏧 BANK*
+          Jangan lupa follow ownerku❤🍭
+
+     [  https://www.instagram.com/anggatzi123 ]
 
 1. BRI 
 	ㅁ TIDAK TERSEDIA❤🍭
