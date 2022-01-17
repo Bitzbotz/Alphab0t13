@@ -11,6 +11,12 @@ _https://chat.whatsapp.com/H0yvjknkMjlGNkpregwFiq_
 4. *𝑮𝑪 𝑩𝑶𝑻 𝑾𝒉𝒂𝒕𝒔𝒂𝒑𝒑* 
 _https://chat.whatsapp.com/H0yvjknkMjlGNkpregwFiq_
 
+
+       Jangan lupa follow ig ownerku
+
+     https://www.instagram.com/anggatzi123
+
+
 Jika ada link yang ke reset, silahkan hubungi
 owner untuk meminta link yang baru
 `
