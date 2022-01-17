@@ -1,31 +1,16 @@
 const allpayment = (prefix) => {
 return `PAYMENT BY LISABOTZ❤🍭
 
-*🏧 BANK*
+*GK PERLU DONASI CUKUP FOLLOW ig OWNERKU AJA*
 
-1. BRI 
-	ㅁ Tidak tersedia
-2. BCA 
-	ㅁ Tidak tersedia
-3. BNI 
-	ㅁ Tidak tersedia
-4. PERMATA
-	ㅁ Tidak tetsedia
-	
-*💰 E-MONEY*
+ *ig OWNER* :  https://www.instagram.com/anggatzi123
 
-1. GOPAY
-	ㅁ Tidak tersedia
-2. OVO
-	ㅁ Tidak tetsedia
-3. DANA
-	ㅁ Tidak tersedia
-	
-Semuanya atas nama Lisabotz
+
+Semuanya atas nama Lisabotz❤🍭
 
 *📲 PULSA*
 
-083191486089
+083191486089   DONASI PULSA BUAT OWNERKU❤🍭
 	
 Sebelum melakukan pembayaran ada baiknya anda menghubungi owner terlebih dahulu!
 `
