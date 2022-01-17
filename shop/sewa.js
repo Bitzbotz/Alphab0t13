@@ -15,6 +15,8 @@ return `「 *PRICE LIST* 」
 
 ⬡ JADI BOT PERMANEN 25K
 
+⬡ https://www.instagram.com/anggatzi123
+
 
 ⬣ MINAT? PM
 ⬡ wa.me/6281998425782
