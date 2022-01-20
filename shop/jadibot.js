@@ -12,7 +12,7 @@ return`╭──「 📖  *PRICE JADIBOT*」
 │
 ├─ 「 💰  *PAYMENT* 」
 │
-│ ⤷ *Pulsa Telkom*
+│ ⤷ *Pulsa Axis*
 │
 ├─ 「 👨‍💻  *RUN ON* 」
 │
