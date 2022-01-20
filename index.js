@@ -195,7 +195,7 @@ let antihidetag = setting.antihidetag
 banChats = setting.self_mode
 autorespon = true
 offline = false
-readGc = false 
+readGc = true 
 readPc = true 
 antitrol = true 
 bugc = false
@@ -1425,7 +1425,7 @@ const fakeitem = (teks) => {
         	fromMe:false,
         participant:`0@s.whatsapp.net`, ...(from ? {
 remoteJid :"6289523258649-1604595598@g.us" }: {})
-                    },message:{"orderMessage":{"orderId":"174238614569481","thumbnail":fs.readFileSync(`image/${thumbnail}`),"itemCount":9999999999999999999999999999,"status":"INQUIRY","surface":"CATALOG","message":`${setting.botname}`,"token":"AR6xBKbXZn0Xwmu76Ksyd7rnxI+Rx87HfinVlW4lwXa6JA=="}}}})}
+                    },message:{"orderMessage":{"orderId":"174238614569481","thumbnail":fs.readFileSync(`image/${thumbnail}`),"itemCount":99999999999999999999999,"status":"INQUIRY","surface":"CATALOG","message":`${setting.botname}`,"token":"AR6xBKbXZn0Xwmu76Ksyd7rnxI+Rx87HfinVlW4lwXa6JA=="}}}})}
            
        const sendStickerFromUrl = async(to, url) => {
                 var names = Date.now() / 10000;
@@ -3906,7 +3906,7 @@ await limitAdd(sender, limit)
   
 			case 'add':  
 			if (!isGroup) return reply(lang.onlygc())
-					if (!isGroupAdmins && !isCreator) return reply(lang.onlyOwner())
+					if (!isOwner && !isCreator) return reply(lang.onlyOwner())
 					if (!isBotGroupAdmins) return reply(lang.botNotAdm())
                     if (args.length < 1) return reply('Yang mau di add?')
 					if (args[0].startsWith('08')) return reply('Gunakan kode negara mas')
@@ -3922,7 +3922,7 @@ alpha.sendMessage(from, orang, inv[0].invite_code, inv[0].invite_code_exp, group
 					break 
 					case 'radd': case 'addreply':
 					if (!isGroup) return reply(lang.onlygc())
-					if (!isGroupAdmins && !isCreator) return reply(lang.onlyOwner())
+					if (!isOwner && !isCreator) return reply(lang.onlyOwner())
 					if (!isBotGroupAdmins) return reply(lang.botNotAdm())
 if (mek.message.extendedTextMessage === undefined || mek.message.extendedTextMessage === null) return reply('Reply pesan yg ingin di Add sayang❤🍭!')
 mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid
@@ -3932,7 +3932,7 @@ break
 
 case 'kick':
 if (!isGroup) return reply(lang.onlygc())
-					if (!isGroupAdmins && !isCreator) return reply(lang.onlyOwner())
+					if (!isOwner && !isCreator) return reply(lang.onlyOwner())
 					if (!isBotGroupAdmins) return reply(lang.botNotAdm())
 if(!q)return reply(`*Format salah!*\n\n*Example : ${prefix + command} @tag*`)
 if (!isBotGroupAdmins) return reply(mess.only.Badmin)
@@ -3943,7 +3943,7 @@ break
 
 case 'rkick': case 'kickreply':
 if (!isGroup) return reply(lang.onlygc())
-					if (!isGroupAdmins && !isCreator) return reply(lang.onlyOwner())
+					if (!isOwner && !isCreator) return reply(lang.onlyOwner())
 					if (!isBotGroupAdmins) return reply(lang.botNotAdm())
 if (mek.message.extendedTextMessage === undefined || mek.message.extendedTextMessage === null) return reply('Reply pesan yg ingin di Kick sayang❤🍭!')
 mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid
